@@ -1,0 +1,8 @@
+- prompt: I need to get from ord to seattle on jan 1
+  expected_type: find-flights
+  expected_result: [23, 24]
+- prompt: please book the first one
+  expected_type: book-flight
+  expected_result: 23
+- prompt: Thank you!
+  expected_type: text

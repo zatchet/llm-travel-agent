@@ -1,0 +1,12 @@
+# Multiple bookings
+- prompt: Get me a flight from Miami to Seattle tomorrow.
+  expected_type: find-flights
+  expected_result: [123, 124]
+- prompt: Perfect, book the second one!
+  expected_type: book-flight
+  expected_result: 124
+- prompt: Book the first one too. 
+  expected_type: book-flight
+  expected_result: 123
+- prompt: Thank you!
+  expected_type: text

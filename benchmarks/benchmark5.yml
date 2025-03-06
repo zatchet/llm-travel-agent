@@ -1,0 +1,11 @@
+# let's see if it can book a flight from a previous response from the model
+- prompt: find flights from LAX to EWR on feb 11
+  expected_type: find-flights
+  expected_result: [3144]
+- prompt: find me flights from atlanta to san francisco on march 1
+  expected_type: find-flights
+  expected_result: [4551]
+- prompt: book the flight from lax to ewr please
+  expected_type: book-flight
+  expected_result: 3144
+

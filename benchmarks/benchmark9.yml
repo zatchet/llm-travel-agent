@@ -1,0 +1,12 @@
+# Testing no seats available
+- prompt: Get me a flight day after tomorrow from JFK to San Fran
+  expected_type: find-flights
+  expected_result: [239, 240, 241]
+- prompt: Perfect, book the last one!
+  expected_type: book-flight
+  expected_result: null
+- prompt: Never mind, book the second to last one!
+  expected_type: book-flight
+  expected_result: 240
+- prompt: Thank you!
+  expected_type: text

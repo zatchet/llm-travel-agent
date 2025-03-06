@@ -1,0 +1,12 @@
+# Testing change of mind
+- prompt: Can I get from Boston to Atlanta exactly a month from now?
+  expected_type: find-flights
+  expected_result: [2442, 2443]
+- prompt: Actually, I want to go to DFW instead.
+  expected_type: find-flights
+  expected_result: [2453]
+- prompt: Looks good! Book this flight!
+  expected_type: book-flight
+  expected_result: 2453
+- prompt: Thank you!
+  expected_type: text

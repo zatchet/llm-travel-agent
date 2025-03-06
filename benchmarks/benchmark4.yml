@@ -1,0 +1,7 @@
+# let's see if it can remember the origin from a previous prompt
+- prompt: I need to get from chicago to new york on jan 11
+  expected_type: find-flights
+  expected_result: [789, 790]
+- prompt: Actually, I want to go to los angeles instead # should look for chicago - la
+  expected_type: find-flights
+  expected_result: [823, 824, 825]

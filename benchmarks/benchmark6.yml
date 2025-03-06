@@ -1,0 +1,9 @@
+# Slang language
+- prompt: Get me a flight from the Emerald City to the Windy City on Good Friday.
+  expected_type: find-flights
+  expected_result: [7402, 7403]
+- prompt: Perfect, book the second one!
+  expected_type: book-flight
+  expected_result: 7403
+- prompt: Thank you!
+  expected_type: text

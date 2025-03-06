@@ -1,0 +1,9 @@
+# let's see if it can calculate the correct date needed
+- prompt: bos to ewr day after tomorrow
+  expected_type: find-flights
+  expected_result: [229]
+- prompt: book it!
+  expected_type: book-flight
+  expected_result: 229
+- prompt: thanks!
+  expected_type: text

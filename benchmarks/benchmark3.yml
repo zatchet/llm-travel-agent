@@ -1,0 +1,7 @@
+# let's see if it can correctly infer acronyms from city names
+- prompt: I need to get from chicago to dallas on jan 6, 2023
+  expected_type: find-flights
+  expected_result: [423, 424]
+- prompt: book the second one
+  expected_type: book-flight
+  expected_result: 424
